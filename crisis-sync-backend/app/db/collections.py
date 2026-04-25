@@ -1,0 +1,4 @@
+USERS_COLLECTION = "users"
+SOS_COLLECTION = "sos_requests"
+ALERTS_COLLECTION = "alerts"
+VENUES_COLLECTION = "venues"

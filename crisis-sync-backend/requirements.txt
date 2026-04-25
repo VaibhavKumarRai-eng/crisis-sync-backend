@@ -1,0 +1,33 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+gunicorn==22.0.0
+
+# MongoDB (async)
+motor==3.5.1
+pymongo==4.8.0
+
+# Auth & Security
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.3
+
+# Environment variables
+python-dotenv==1.0.1
+pydantic-settings==2.3.4
+
+# Data validation
+pydantic==2.7.1
+email-validator==2.1.1
+
+# WebSockets support
+websockets==12.0
+
+# Utilities
+python-multipart==0.0.9
+
+# Optional (logging / better dev)
+loguru==0.7.2
+
+# Testing
+pytest==8.2.2
+httpx==0.27.0
