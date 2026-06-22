@@ -11,5 +11,5 @@ def configure_logging() -> None:
         sys.stdout,
         level=settings.LOG_LEVEL.upper(),
         format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} | {message}",
-        enqueue=True,
+        enqueue=sys.platform != "win32",
     )

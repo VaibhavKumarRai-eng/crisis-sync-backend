@@ -1,0 +1,24 @@
+INFO:     Started server process [8844]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     ('127.0.0.1', 52209) - "WebSocket /api/v1/ws/alerts" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     ('127.0.0.1', 56845) - "WebSocket /api/v1/ws/alerts" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     ('127.0.0.1', 61685) - "WebSocket /api/v1/ws/alerts" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     ('127.0.0.1', 51920) - "WebSocket /api/v1/ws/alerts" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     ('127.0.0.1', 62366) - "WebSocket /api/v1/ws/alerts" [accepted]
+INFO:     connection open
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\raiva\OneDrive\Desktop\crisis-sync\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
